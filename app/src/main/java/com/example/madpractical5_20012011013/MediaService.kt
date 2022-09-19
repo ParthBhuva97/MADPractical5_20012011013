@@ -4,6 +4,7 @@ import android.app.Service
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.IBinder
+import com.example.madpractical5_20012011013.databinding.ActivityMainBinding
 
 class MediaService : Service() {
     companion object{

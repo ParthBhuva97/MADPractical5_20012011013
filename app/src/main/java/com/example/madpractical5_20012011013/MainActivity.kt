@@ -11,9 +11,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        var count = 0
         binding.playButton.setOnClickListener {
+            count++
             play()
+            if(count%2!=0){
+                binding.playButton.setImageDrawable(resources.getDrawable(R.drawable.ic_baseline_pause_24))
+            }
+            else{
+                binding.playButton.setImageDrawable(resources.getDrawable(R.drawable.ic_baseline_play_arrow_24))
+            }
         }
 
         binding.stopButton.setOnClickListener {
