@@ -53,7 +53,8 @@
             app:cardCornerRadius="20dp"
             android:elevation="20dp"
             android:layout_marginTop="25dp"
-            android:layout_marginHorizontal="20dp">
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="@color/cardview_dark_background">
 
 
             <LinearLayout
@@ -69,6 +70,7 @@
                     android:layout_margin="20dp"
                     android:text="Dosti Music Video"
                     android:textSize="20sp"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
                 <com.google.android.material.slider.Slider
