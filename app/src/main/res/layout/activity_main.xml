@@ -32,13 +32,14 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="375dp"
             android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
             app:cardCornerRadius="20dp">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="450dp"
+                android:layout_height="wrap_content"
                 android:src="@drawable/photo"
                 />
 
@@ -50,7 +51,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="20dp"
-            android:elevation="20dp">
+            android:elevation="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="20dp">
 
 
             <LinearLayout
@@ -63,6 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
+                    android:layout_margin="20dp"
                     android:text="Dosti Music Video"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -81,7 +85,7 @@
                     android:id="@+id/buttons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="20dp"
                     android:gravity="center"
                     android:orientation="horizontal">
 
